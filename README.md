@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+* Developer API token from [developer.marvel.com](https://developer.marvel.com)
+  * This will get used in the API calls to gateway.marvel.com
+* Additional Libraries Needed: 
+  * axios
+  * bootstrap
+  * reactstrap
+  * react-router-dom
+
+## Demo
+Demo the app at [dysfunctional-purpose.surge.sh](dysfunctional-purpose.surge.sh)
+
 ## Available Scripts
 
 In the project directory, you can run:
