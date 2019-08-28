@@ -2,12 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisites
 * Developer API token from [developer.marvel.com]
-
-* Additional Libraries Needed:
-** axios
-** bootstrap
-** reactstrap
-** react-router-dom
+* Additional Libraries Needed: 
+  * axios
+  * bootstrap
+  * reactstrap
+  * react-router-dom
 
 ## Demo
 Demo the app at [dysfunctional-purpose.surge.sh]
