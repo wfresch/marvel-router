@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Prerequisites
-* Developer API token from [developer.marvel.com]
+* Developer API token from [developer.marvel.com](https://developer.marvel.com)
 * Additional Libraries Needed: 
   * axios
   * bootstrap
@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * react-router-dom
 
 ## Demo
-Demo the app at [dysfunctional-purpose.surge.sh]
+Demo the app at [dysfunctional-purpose.surge.sh](dysfunctional-purpose.surge.sh)
 
 ## Available Scripts
 
