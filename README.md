@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisites
 * Developer API token from [developer.marvel.com](https://developer.marvel.com)
+  * This will get used in the API calls to gateway.marvel.com
 * Additional Libraries Needed: 
   * axios
   * bootstrap
