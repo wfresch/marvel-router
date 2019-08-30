@@ -10,7 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * react-router-dom
 
 ## Demo
-Demo the app at [dysfunctional-purpose.surge.sh](dysfunctional-purpose.surge.sh)
+Demo the app at [dysfunctional-purpose.surge.sh](dysfunctional-purpose.surge.sh) .  The simple app consists of the following parts:
+1. Home page - A search field and command used for searching for specific comics.
+2. Results page - A list of up to 20 icons, each serving as a link to more details on that particular issue.
+3. Details page - A more-detailed screen, listing the title, larger cover, and details for each issue.
 
 ## Available Scripts
 
