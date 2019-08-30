@@ -15,7 +15,7 @@ export default function ComicPage(props) {
   useEffect(() => {
     const getComic = async () => {
       // Note - Use a valid apikey from developer.marvel.com. I hard-coded these values locally.
-      axios.get(`http://gateway.marvel.com/v1/public/comics/${props.match.params.id}?ts=1&apikey={apikey}&hash={hash}`).then(res => {
+      axios.get(`https://gateway.marvel.com/v1/public/comics/${props.match.params.id}?ts=1&apikey={apikey}&hash={hash}`).then(res => {
             const data = res.data.data.results[0];
             setComic(data);
         });

@@ -16,7 +16,7 @@ export default function ResultsPage(props) {
   useEffect(() => {
     const getResults = async () => {
       // Note - Use a valid apikey from developer.marvel.com. I hard-coded these values locally.
-      axios.get(`http://gateway.marvel.com/v1/public/comics?titleStartsWith=${props.match.params.search}&ts=1&apikey={apikey}&hash={hash}`).then(res => {
+      axios.get(`https://gateway.marvel.com/v1/public/comics?titleStartsWith=${props.match.params.search}&ts=1&apikey={apikey}&hash={hash}`).then(res => {
             const comics = res.data.data.results.map(obj => obj);
             setResults(comics);
         });      
